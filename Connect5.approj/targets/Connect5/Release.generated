@@ -1,0 +1,729 @@
+{
+    "assets": [
+        {
+            "asset": "../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist", 
+            "target": "ResourceRules.plist"
+        }, 
+        {
+            "asset": "Connect5/MainMenuViewController.xib", 
+            "target": null
+        }, 
+        {
+            "asset": "TSMessages/Resources/Images/NotificationBackgroundWarning.png", 
+            "target": "NotificationBackgroundWarning.png"
+        }, 
+        {
+            "asset": "TSMessages/Resources/Images/NotificationBackgroundWarning@2x.png", 
+            "target": "NotificationBackgroundWarning@2x.png"
+        }, 
+        {
+            "asset": "TSMessages/Resources/Images/NotificationBackgroundSuccess@2x.png", 
+            "target": "NotificationBackgroundSuccess@2x.png"
+        }, 
+        {
+            "asset": "TSMessages/Resources/Images/NotificationBackgroundSuccessIcon@2x.png", 
+            "target": "NotificationBackgroundSuccessIcon@2x.png"
+        }, 
+        {
+            "asset": "TSMessages/Resources/Images/NotificationBackgroundWarningIcon@2x.png", 
+            "target": "NotificationBackgroundWarningIcon@2x.png"
+        }, 
+        {
+            "asset": "Background.jpeg", 
+            "target": "Background.jpeg"
+        }, 
+        {
+            "asset": "circle_yellow.png", 
+            "target": "circle_yellow.png"
+        }, 
+        {
+            "asset": "Connect5/en.lproj/InfoPlist.strings", 
+            "target": "en.lproj/InfoPlist.strings"
+        }, 
+        {
+            "asset": "player_pause.png", 
+            "target": "player_pause.png"
+        }, 
+        {
+            "asset": "icon_40.png", 
+            "target": "icon_40.png"
+        }, 
+        {
+            "asset": "Background3.jpeg", 
+            "target": "Background3.jpeg"
+        }, 
+        {
+            "asset": "tut.png", 
+            "target": "tut.png"
+        }, 
+        {
+            "asset": "TSMessages/Resources/Images/NotificationButtonBackground@2x.png", 
+            "target": "NotificationButtonBackground@2x.png"
+        }, 
+        {
+            "asset": "media_playback_pause.png", 
+            "target": "media_playback_pause.png"
+        }, 
+        {
+            "asset": "circle_blue.png", 
+            "target": "circle_blue.png"
+        }, 
+        {
+            "asset": "circle_green.png", 
+            "target": "circle_green.png"
+        }, 
+        {
+            "asset": "Default~iphone.png", 
+            "target": "Default~iphone.png"
+        }, 
+        {
+            "asset": "TSMessages/Resources/TSMessagesDefaultDesign.json", 
+            "target": "TSMessagesDefaultDesign.json"
+        }, 
+        {
+            "asset": "grayNavBar.png", 
+            "target": "grayNavBar.png"
+        }, 
+        {
+            "asset": "TSMessages/Resources/Images/NotificationBackgroundErrorIcon@2x.png", 
+            "target": "NotificationBackgroundErrorIcon@2x.png"
+        }, 
+        {
+            "asset": "Connect5/en.lproj/Connect5ViewController_iPhone.xib", 
+            "target": null
+        }, 
+        {
+            "asset": "icon_144.png", 
+            "target": "icon_144.png"
+        }, 
+        {
+            "asset": "TSMessages/Resources/Images/NotificationButtonBackground.png", 
+            "target": "NotificationButtonBackground.png"
+        }, 
+        {
+            "asset": "TSMessages/Resources/Images/NotificationBackgroundMessage.png", 
+            "target": "NotificationBackgroundMessage.png"
+        }, 
+        {
+            "asset": "UndoTut.png", 
+            "target": "UndoTut.png"
+        }, 
+        {
+            "asset": "TSMessages/Resources/Images/NotificationBackgroundMessage@2x.png", 
+            "target": "NotificationBackgroundMessage@2x.png"
+        }, 
+        {
+            "asset": "icon_512.png", 
+            "target": "icon_512.png"
+        }, 
+        {
+            "asset": "TSMessages/Resources/Images/NotificationBackgroundErrorIcon.png", 
+            "target": "NotificationBackgroundErrorIcon.png"
+        }, 
+        {
+            "asset": "icon_120.png", 
+            "target": "icon_120.png"
+        }, 
+        {
+            "asset": "icon_50.png", 
+            "target": "icon_50.png"
+        }, 
+        {
+            "asset": "Button_background.png", 
+            "target": "Button_background.png"
+        }, 
+        {
+            "asset": "TSMessages/Resources/Images/NotificationBackgroundSuccessIcon.png", 
+            "target": "NotificationBackgroundSuccessIcon.png"
+        }, 
+        {
+            "asset": "icon_72.png", 
+            "target": "icon_72.png"
+        }, 
+        {
+            "asset": "Connect5/en.lproj/Connect5ViewController_iPad.xib", 
+            "target": null
+        }, 
+        {
+            "asset": "Default.png", 
+            "target": "Default.png"
+        }, 
+        {
+            "asset": "icon_58.png", 
+            "target": "icon_58.png"
+        }, 
+        {
+            "asset": "SIAlertView/SIAlertView.bundle", 
+            "target": "SIAlertView.bundle"
+        }, 
+        {
+            "asset": "TSMessages/Resources/Images/NotificationBackgroundError.png", 
+            "target": "NotificationBackgroundError.png"
+        }, 
+        {
+            "asset": "gray-texture-Wallpaper.jpg", 
+            "target": "gray-texture-Wallpaper.jpg"
+        }, 
+        {
+            "asset": "icon_114.png", 
+            "target": "icon_114.png"
+        }, 
+        {
+            "asset": "TSMessages/Resources/Images/NotificationBackgroundWarningIcon.png", 
+            "target": "NotificationBackgroundWarningIcon.png"
+        }, 
+        {
+            "asset": "circle_orange.png", 
+            "target": "circle_orange.png"
+        }, 
+        {
+            "asset": "undo.png", 
+            "target": "undo.png"
+        }, 
+        {
+            "asset": "TSMessages/Resources/Images/NotificationBackgroundError@2x.png", 
+            "target": "NotificationBackgroundError@2x.png"
+        }, 
+        {
+            "asset": "icon_60.png", 
+            "target": "icon_60.png"
+        }, 
+        {
+            "asset": "circle_red.png", 
+            "target": "circle_red.png"
+        }, 
+        {
+            "asset": "icon_29.png", 
+            "target": "icon_29.png"
+        }, 
+        {
+            "asset": "TSMessages/Resources/Images/NotificationBackgroundSuccess.png", 
+            "target": "NotificationBackgroundSuccess.png"
+        }, 
+        {
+            "asset": "Default-568h@2x.png", 
+            "target": "Default-568h@2x.png"
+        }, 
+        {
+            "asset": "icon_1024.png", 
+            "target": "icon_1024.png"
+        }, 
+        {
+            "asset": "icon_57.png", 
+            "target": "icon_57.png"
+        }, 
+        {
+            "asset": "objective.png", 
+            "target": "objective.png"
+        }, 
+        {
+            "asset": "icon_80.png", 
+            "target": "icon_80.png"
+        }, 
+        {
+            "asset": "dark-grey-background-texture.png", 
+            "target": "dark-grey-background-texture.png"
+        }, 
+        {
+            "asset": "new cells.png", 
+            "target": "new cells.png"
+        }, 
+        {
+            "asset": "black-background-metal-texture-16001200-abstract-hd.jpg", 
+            "target": "black-background-metal-texture-16001200-abstract-hd.jpg"
+        }, 
+        {
+            "asset": "selection.png", 
+            "target": "selection.png"
+        }
+    ], 
+    "config": {
+        "APPLICATION_FULL_NAME": "YouQue", 
+        "APPLICATION_IDENTIFIER": "com.digitalchains.Connect5", 
+        "APPLICATION_NAME": "YouQue", 
+        "LONG_VERSION": "2.0", 
+        "SHORT_VERSION": "2.0", 
+        "TEMPLATE_VALUES": {
+            "EXECUTABLE_NAME": "YouQue", 
+            "PRODUCT_NAME": "YouQue"
+        }
+    }, 
+    "defines": {
+        "NS_BLOCK_ASSERTIONS": 1, 
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 50000
+    }, 
+    "deps": [
+        "UIKit", 
+        "GameKit", 
+        "QuartzCore", 
+        "UIKit", 
+        "Foundation", 
+        "CoreGraphics"
+    ], 
+    "flags": [
+        "-DNS_BLOCK_ASSERTIONS=1", 
+        "-fobjc-arc", 
+        "-fasm-blocks", 
+        {
+            "flag": "-std=gnu99", 
+            "not_type": "c++"
+        }, 
+        {
+            "flag": "-fgnu-keywords", 
+            "not_type": "c++"
+        }, 
+        "-fno-asm", 
+        "-fpascal-strings", 
+        "-Wempty-body", 
+        "-Wno-deprecated-declarations", 
+        "-Wreturn-type", 
+        "-Wswitch", 
+        "-Wparentheses", 
+        "-Wformat", 
+        "-Wuninitialized", 
+        "-Wunused-value", 
+        "-Wunused-variable", 
+        {
+            "flag": "-Winvalid-offsetof", 
+            "type": "c++"
+        }, 
+        {
+            "flag": "-Wprotocol", 
+            "type": "objc"
+        }
+    ], 
+    "header_paths": [
+        {
+            "header_path": "YouQue-generated-files.hmap", 
+            "hmap": {}, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "YouQue-own-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "YouQue-all-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "YouQue-project-headers.hmap", 
+            "hmap": {
+                "CellView.h": {
+                    "key": "CellView.h", 
+                    "prefix": "./", 
+                    "suffix": "CellView.h"
+                }, 
+                "Connect5-Prefix.pch": {
+                    "key": "Connect5-Prefix.pch", 
+                    "prefix": "Connect5/", 
+                    "suffix": "Connect5-Prefix.pch"
+                }, 
+                "Connect5AppDelegate.h": {
+                    "key": "Connect5AppDelegate.h", 
+                    "prefix": "Connect5/", 
+                    "suffix": "Connect5AppDelegate.h"
+                }, 
+                "Connect5ViewController.h": {
+                    "key": "Connect5ViewController.h", 
+                    "prefix": "Connect5/", 
+                    "suffix": "Connect5ViewController.h"
+                }, 
+                "ConnectedCellRowsDetector.h": {
+                    "key": "ConnectedCellRowsDetector.h", 
+                    "prefix": "./", 
+                    "suffix": "ConnectedCellRowsDetector.h"
+                }, 
+                "ConnectedCellsDetector.h": {
+                    "key": "ConnectedCellsDetector.h", 
+                    "prefix": "./", 
+                    "suffix": "ConnectedCellsDetector.h"
+                }, 
+                "FastestPathFinder.h": {
+                    "key": "FastestPathFinder.h", 
+                    "prefix": "./", 
+                    "suffix": "FastestPathFinder.h"
+                }, 
+                "GameEntity.h": {
+                    "key": "GameEntity.h", 
+                    "prefix": "./", 
+                    "suffix": "GameEntity.h"
+                }, 
+                "Graph.h": {
+                    "key": "Graph.h", 
+                    "prefix": "./", 
+                    "suffix": "Graph.h"
+                }, 
+                "GraphCell.h": {
+                    "key": "GraphCell.h", 
+                    "prefix": "./", 
+                    "suffix": "GraphCell.h"
+                }, 
+                "HexColor.h": {
+                    "key": "HexColor.h", 
+                    "prefix": "Submodules/HexColors/Classes/", 
+                    "suffix": "HexColor.h"
+                }, 
+                "LevelEntity.h": {
+                    "key": "LevelEntity.h", 
+                    "prefix": "./", 
+                    "suffix": "LevelEntity.h"
+                }, 
+                "LevelGauge.h": {
+                    "key": "LevelGauge.h", 
+                    "prefix": "./", 
+                    "suffix": "LevelGauge.h"
+                }, 
+                "LevelProvider.h": {
+                    "key": "LevelProvider.h", 
+                    "prefix": "./", 
+                    "suffix": "LevelProvider.h"
+                }, 
+                "MJDijkstra.h": {
+                    "key": "MJDijkstra.h", 
+                    "prefix": "implementation/", 
+                    "suffix": "MJDijkstra.h"
+                }, 
+                "MJPriorityDictionary.h": {
+                    "key": "MJPriorityDictionary.h", 
+                    "prefix": "implementation/", 
+                    "suffix": "MJPriorityDictionary.h"
+                }, 
+                "MJPriorityQueue.h": {
+                    "key": "MJPriorityQueue.h", 
+                    "prefix": "implementation/", 
+                    "suffix": "MJPriorityQueue.h"
+                }, 
+                "MSize.h": {
+                    "key": "MSize.h", 
+                    "prefix": "./", 
+                    "suffix": "MSize.h"
+                }, 
+                "MYIntroductionPanel.h": {
+                    "key": "MYIntroductionPanel.h", 
+                    "prefix": "./", 
+                    "suffix": "MYIntroductionPanel.h"
+                }, 
+                "MYIntroductionView.h": {
+                    "key": "MYIntroductionView.h", 
+                    "prefix": "./", 
+                    "suffix": "MYIntroductionView.h"
+                }, 
+                "MainMenuViewController.h": {
+                    "key": "MainMenuViewController.h", 
+                    "prefix": "Connect5/", 
+                    "suffix": "MainMenuViewController.h"
+                }, 
+                "MatrixView.h": {
+                    "key": "MatrixView.h", 
+                    "prefix": "./", 
+                    "suffix": "MatrixView.h"
+                }, 
+                "PersistentStore.h": {
+                    "key": "PersistentStore.h", 
+                    "prefix": "./", 
+                    "suffix": "PersistentStore.h"
+                }, 
+                "RandomUnOccupiedCellsGenerator.h": {
+                    "key": "RandomUnOccupiedCellsGenerator.h", 
+                    "prefix": "./", 
+                    "suffix": "RandomUnOccupiedCellsGenerator.h"
+                }, 
+                "SIAlertView.h": {
+                    "key": "SIAlertView.h", 
+                    "prefix": "SIAlertView/", 
+                    "suffix": "SIAlertView.h"
+                }, 
+                "SSDrawingUtilities.h": {
+                    "key": "SSDrawingUtilities.h", 
+                    "prefix": "./", 
+                    "suffix": "SSDrawingUtilities.h"
+                }, 
+                "SSPieProgressView.h": {
+                    "key": "SSPieProgressView.h", 
+                    "prefix": "./", 
+                    "suffix": "SSPieProgressView.h"
+                }, 
+                "ScoreEntity.h": {
+                    "key": "ScoreEntity.h", 
+                    "prefix": "./", 
+                    "suffix": "ScoreEntity.h"
+                }, 
+                "TSBlurView.h": {
+                    "key": "TSBlurView.h", 
+                    "prefix": "TSMessages/Views/", 
+                    "suffix": "TSBlurView.h"
+                }, 
+                "TSMessage.h": {
+                    "key": "TSMessage.h", 
+                    "prefix": "TSMessages/Classes/", 
+                    "suffix": "TSMessage.h"
+                }, 
+                "TSMessageView.h": {
+                    "key": "TSMessageView.h", 
+                    "prefix": "TSMessages/Views/", 
+                    "suffix": "TSMessageView.h"
+                }, 
+                "UIView+Glow.h": {
+                    "key": "UIView+Glow.h", 
+                    "prefix": "./", 
+                    "suffix": "UIView+Glow.h"
+                }, 
+                "UndoManager.h": {
+                    "key": "UndoManager.h", 
+                    "prefix": "./", 
+                    "suffix": "UndoManager.h"
+                }
+            }, 
+            "type": "iquote"
+        }
+    ], 
+    "infoplists": [
+        "./Connect5/Connect5-Info.plist"
+    ], 
+    "libs": [], 
+    "modules": [], 
+    "pchs": [
+        "./Connect5/Connect5-Prefix.pch"
+    ], 
+    "sources": [
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "CellView.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Connect5/Connect5AppDelegate.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Connect5/Connect5ViewController.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Connect5/MainMenuViewController.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Connect5/main.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "ConnectedCellRowsDetector.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "ConnectedCellsDetector.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "FastestPathFinder.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "GameEntity.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Graph.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "GraphCell.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "LevelEntity.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "LevelGauge.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "LevelProvider.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "MSize.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "MYIntroductionPanel.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "MYIntroductionView.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "MatrixView.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "PersistentStore.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "RandomUnOccupiedCellsGenerator.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "SIAlertView/SIAlertView.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "SSDrawingUtilities.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "SSPieProgressView.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "ScoreEntity.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Submodules/HexColors/Classes/HexColor.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "TSMessages/Classes/TSMessage.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "TSMessages/Views/TSBlurView.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "TSMessages/Views/TSMessageView.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "UIView+Glow.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "UndoManager.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [
+                "-fno-objc-arc"
+            ], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "implementation/MJDijkstra.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc++", 
+            "source": "implementation/MJPriorityDictionary.mm"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc++", 
+            "source": "implementation/MJPriorityQueue.mm"
+        }
+    ], 
+    "type": "app", 
+    "version": "1", 
+    "xcode_project": "Connect5.xcodeproj"
+}

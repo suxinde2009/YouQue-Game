@@ -66,6 +66,7 @@
     CGPoint point = CGPointMake(_index/(size.height), _index%(size.height));
     return point;
 }
+
 -(void)copySelftoGCell:(GraphCell*)CopyGCell
 {
     CopyGCell.color = self.color;

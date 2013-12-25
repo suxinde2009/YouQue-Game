@@ -86,10 +86,35 @@
     int StartX = VertixCellPoint.x;
     int StartY = VertixCellPoint.y;
     //int limit = 1;
+    
     int EndX = VertixCellPoint.x;
     int EndY = VertixCellPoint.y;
     
-    for(int z=0;z<(graph.size.width>graph.size.height?graph.size.width:graph.size.height);z++)
+    BOOL diagonalBelowMainDiagonal = (VertixCellPoint.x+VertixCellPoint.y) >= (graph.size.height-1);
+    
+    int graphHeightZeroIndexed = graph.size.height-1;
+    int graphWidthZeroIndexed = graph.size.width-1;
+    
+    if(diagonalBelowMainDiagonal)
+    {
+        StartY = graphHeightZeroIndexed;
+        
+        StartX = VertixCellPoint.x - (graphHeightZeroIndexed - VertixCellPoint.y);
+        
+        EndX = graphWidthZeroIndexed;
+        EndY = VertixCellPoint.y - (graphWidthZeroIndexed-VertixCellPoint.x);
+    }else
+    {
+        StartX = 0;
+        StartY = VertixCellPoint.y + VertixCellPoint.x;
+        
+        EndY = StartX;
+        EndX = StartY;
+    }
+    
+    
+    
+    /*for(int z=0;z<(graph.size.width>graph.size.height?graph.size.width:graph.size.height);z++)
     {
         
         if(EndY==0 || EndX==graph.size.width-1)
@@ -109,17 +134,34 @@
         }
         StartX--;
         StartY++;
-    }
+    }*/
     
-    
-    for(int i = 0 ;StartX+i<=EndX||StartY-i>=EndY;i++)
-    {
-        BOOL breakLoop = [self DetectConnectedCellsInaRowWithConnectedCellsArray:result withCurrentGCell:[graph getGraphCellWithX:StartX+i withY:StartY-i]];
-        if(breakLoop)
+    @try{
+        
+        for(int i = 0 ;StartX+i<=EndX||StartY-i>=EndY;i++)
         {
-            break;
+            BOOL breakLoop = [self DetectConnectedCellsInaRowWithConnectedCellsArray:result withCurrentGCell:[graph getGraphCellWithX:StartX+i withY:StartY-i]];
+            if(breakLoop)
+            {
+                break;
+            }
         }
+    }@catch (NSException *e) {
+        
+        
+        CGPoint point = VertixCellPoint;
+        int startx = StartX;
+        int starty = StartY;
+        
+        int endx = EndX;
+        int endy = EndY;
+        
+        NSLog(@"vertixe point : (%.0f ,%.0f)\n %@ \n startx : %d \n starty : %d \n endx : %d \n endy : %d ",point.x,point.y,diagonalBelowMainDiagonal?@"below":@"above",startx,starty,endx,endy);
+    }@finally {
+        
+        
     }
+    
     
     if(result.count>=CONNECTED_CELLS_COUNT)
     {
