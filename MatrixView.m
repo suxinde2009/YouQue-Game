@@ -672,7 +672,13 @@
     
     alertView.transitionStyle = SIAlertViewTransitionStyleFade;
     
-    [alertView performSelector:@selector(show) withObject:nil afterDelay:0.5];
+    //[alertView performSelector:@selector(show) withObject:nil afterDelay:0.5];
+    [alertView show];
+    CPInterstitialResult result = [[CrossPromotion sharedInstance] present];
+    if (result != CPInterstitialResultPresented)
+    {
+        //CPDiagnosticMsg(@"Unable to present interstitial ad view");
+    }
     
 }
 -(void)DetectAndRemoveConnectedCellsAndUpdateScoreWithCompetionBlock:(CompletionBlock) block withVerticesArray:(NSArray*)vertices

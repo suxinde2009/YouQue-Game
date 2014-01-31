@@ -27,6 +27,7 @@
 {
     [super viewDidLoad];
     [self.navigationController setNavigationBarHidden:YES];
+    [[CrossPromotion sharedInstance] startRequestingInterstitialsWithDelegate:self];
     //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"gray-texture-Wallpaper.jpg"] ];
     // Do any additional setup after loading the view from its nib.
 }
@@ -153,5 +154,43 @@
     {
         return YES;
     }
+}
+#pragma mark CPInterstitialAdViewDelegate
+
+// Interstitial ad is received: it’s safe to present it now.
+- (void)interstitialAdDidReceive:(CPInterstitialAdView *)adView
+{
+    NSLog(@"Interstitial ad received");
+    
+}
+
+//  Interstitial ad is failed to receive.
+- (void)interstitialAdDidFail:(CPInterstitialAdView *)adView withError:(NSError *)error
+{
+    NSLog(@"Failed to receive interstitial ad: %@", [error localizedDescription]);
+}
+
+// Interstitial ad presented full screen modal view. You can pause your game here.
+- (void)interstitialAdDidOpen:(CPInterstitialAdView *)adView
+{
+    NSLog(@"Interstitial ad did open");
+}
+
+// Interstitial ad hided full screen modal view. You can resume your game here.
+- (void)interstitialAdDidClose:(CPInterstitialAdView *)adView
+{
+    NSLog(@"Interstitial ad did close");
+}
+
+// Return YES if ad should be destroyed on a low memory warning.
+- (BOOL)interstitialAdShouldDestroyOnLowMemory
+{
+    return YES;
+}
+
+// Interstitial ad was destroyed after receiving low memory warning.
+- (void)interstitialAdLowMemoryDidDestroy
+{
+    NSLog(@"Interstitial ad is destroyed due to low memory warning");
 }
 @end

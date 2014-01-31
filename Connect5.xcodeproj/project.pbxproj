@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E019F1A189BE1E40062EA4B /* CrossPromotionSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E019F19189BE1E40062EA4B /* CrossPromotionSDK.framework */; };
+		6E019F1C189BE20B0062EA4B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E019F1B189BE20B0062EA4B /* SystemConfiguration.framework */; };
+		6E019F1E189BE2180062EA4B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E019F1D189BE2180062EA4B /* CoreTelephony.framework */; };
+		6E019F20189BE2210062EA4B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E019F1F189BE2210062EA4B /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6E019F22189BE2340062EA4B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E019F21189BE2340062EA4B /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6E0A1AA01816FC610097486A /* MYIntroductionPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0A1A9D1816FC610097486A /* MYIntroductionPanel.m */; };
 		6E0A1AA11816FC610097486A /* MYIntroductionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0A1A9F1816FC610097486A /* MYIntroductionView.m */; };
 		6E0FAA8A1835006E00D30956 /* Button_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E0FAA891835006E00D30956 /* Button_background.png */; };
@@ -106,6 +111,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E019F19189BE1E40062EA4B /* CrossPromotionSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CrossPromotionSDK.framework; sourceTree = "<group>"; };
+		6E019F1B189BE20B0062EA4B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6E019F1D189BE2180062EA4B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		6E019F1F189BE2210062EA4B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		6E019F21189BE2340062EA4B /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		6E0A1A9C1816FC610097486A /* MYIntroductionPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYIntroductionPanel.h; sourceTree = "<group>"; };
 		6E0A1A9D1816FC610097486A /* MYIntroductionPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYIntroductionPanel.m; sourceTree = "<group>"; };
 		6E0A1A9E1816FC610097486A /* MYIntroductionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYIntroductionView.h; sourceTree = "<group>"; };
@@ -244,8 +254,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E019F22189BE2340062EA4B /* AdSupport.framework in Frameworks */,
+				6E019F20189BE2210062EA4B /* StoreKit.framework in Frameworks */,
+				6E019F1E189BE2180062EA4B /* CoreTelephony.framework in Frameworks */,
+				6E019F1C189BE20B0062EA4B /* SystemConfiguration.framework in Frameworks */,
 				6E5E6A3B1801CAF700716A6B /* GameKit.framework in Frameworks */,
 				6E15D97917735889009DC20F /* QuartzCore.framework in Frameworks */,
+				6E019F1A189BE1E40062EA4B /* CrossPromotionSDK.framework in Frameworks */,
 				6E15D93917735813009DC20F /* UIKit.framework in Frameworks */,
 				6E15D93B17735813009DC20F /* Foundation.framework in Frameworks */,
 				6E15D93D17735813009DC20F /* CoreGraphics.framework in Frameworks */,
@@ -290,6 +305,11 @@
 		6E15D93717735813009DC20F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6E019F21189BE2340062EA4B /* AdSupport.framework */,
+				6E019F1F189BE2210062EA4B /* StoreKit.framework */,
+				6E019F1D189BE2180062EA4B /* CoreTelephony.framework */,
+				6E019F1B189BE20B0062EA4B /* SystemConfiguration.framework */,
+				6E019F19189BE1E40062EA4B /* CrossPromotionSDK.framework */,
 				6E5E6A3A1801CAF700716A6B /* GameKit.framework */,
 				6E15D97817735889009DC20F /* QuartzCore.framework */,
 				6E15D93817735813009DC20F /* UIKit.framework */,
@@ -975,10 +995,18 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: mohammed dehairy (ZMZ5ECK8F3)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/mrblue2020/YouQue\\ Game",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Connect5/Connect5-Prefix.pch";
 				INFOPLIST_FILE = "Connect5/Connect5-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = YouQue;
 				PROVISIONING_PROFILE = "382EF02B-81FC-4B7A-9374-B2B4D58149EB";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -991,10 +1019,18 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: mohammed dehairy (ZMZ5ECK8F3)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/mrblue2020/YouQue\\ Game",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Connect5/Connect5-Prefix.pch";
 				INFOPLIST_FILE = "Connect5/Connect5-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = YouQue;
 				PROVISIONING_PROFILE = "382EF02B-81FC-4B7A-9374-B2B4D58149EB";
 				TARGETED_DEVICE_FAMILY = 1;

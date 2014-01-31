@@ -9,7 +9,7 @@
 #import "Connect5AppDelegate.h"
 
 #import "MainMenuViewController.h"
-
+#import <CrossPromotionSDK/CrossPromotion.h>
 @implementation Connect5AppDelegate
 
 - (void)dealloc
@@ -20,6 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
+    [CrossPromotion initializeWithAppId:@"2b948490-9ff7-4994-9fd1-e78f5ab27629"];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] ;
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
